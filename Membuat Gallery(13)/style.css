@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    line-height: 0;
+}
+
+body {
+    font-family: arial;
+    background-color: #666;
+}
+
+.container {
+    width: 400px;
+    margin:30px auto;
+    border: 3px solid white;
+    
+}
+
+.thumbnail{
+    border-top: 3px solid white;
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.thumbnail .thumb{
+    border: 1px solid white;
+    flex: 1;
+    padding: 2px;
+    width: 125px;
+    height: 125px;
+    transition: .3;
+    cursor: pointer;
+}
+
+.thumbnail .thumb:hover{
+    opacity: .5;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade{
+    opacity: 0;
+    animation: fadeIn .5s forwards;
+}
+
+.active{
+    opacity: .5;
+}
