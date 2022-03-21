@@ -1,0 +1,51 @@
+body {
+  background-color: #1a202c;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gallery-section {
+  min-height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box {
+  width: 800px;
+}
+
+.img-thumbnail {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.img-thumbnail:hover {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap : 20px;
+  font-size: 18pt;
+}
+
+.header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  color: rgb(231, 0, 58);
+}
+
+img {
+  width: 200px;
+}
